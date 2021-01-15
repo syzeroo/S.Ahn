@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sinyoung Ahn</title>
+        <link rel="stylesheet" href="app.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="app.js"></script>
+        <script src="sort.js"></script>
+        <script type="text/javascript"></script>
+  </script>
+    </head>
+    <body>
+        <aside data-sidebar>
+            <div  class="padding">
+              <a href="#" data-sidebar-button>Sinyoung Ahn</a><br>
+              <p>
+                Sinyoung Ahn is a multi-skilled designer
+                <br>based in Netherlands. She is a team player
+                <br>with a desire to learn and share ideasto
+                <br>create impact where it’s needed most.
+              </p>
+              <a href="mailto:sii.ahn.kr@gmail.com" title="Contact">Contact</a>
+            </div>
+        </aside>
+        <main>
+            <nav>
+                <div class="padding"> </div>
+                <a class="button" href="#" data-sidebar-button>S. Ahn</a>
+                <div class="overlay" data-sidebar-overlay></div>
+                <div class="index"><input type="button" value="Hightlights" onClick="location.href='home.html';"></div>
+            </nav>
+
+                <table id="Index">
+                  <colgroup>
+                  <col width="0%"/>
+                  <col width="62%"/>
+                  <col width="30%"/>
+                  <col width="18%"/>
+                  </colgroup>
+                <thead>
+                  <tr id="sorttop">
+                   <th> </th>
+                   <th> Title <button onclick="sortTD ( 1 )">∧</button><button onclick="reverseTD ( 1 )">∨</button></th>
+                   <th> Type    <button onclick="sortTD ( 2 )">∧</button><button onclick="reverseTD ( 2 )">∨</button></th>
+                   <th> Year    <button onclick="sortTD ( 3 )">∧</button><button onclick="reverseTD ( 3 )">∨</button></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td></td><td> Pavel to DMZ </td><td> Service Design </td><td> 2020 </td></tr>
+                  <tr><td></td><td> Hydro Scotland </td><td> Academic </td><td> 2018</td></tr>
+                  <tr><td></td><td> NHS 24 </td><td> Academic </td><td> 2017 </td></tr>
+                </tbody>
+              </table>
+              <script src="sort.js"></script>
+              <script type="text/javascript"></script>
+        </main>
+    </body>
+</html>

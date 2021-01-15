@@ -1,0 +1,49 @@
+
+html { min-height: 100%; }
+
+body {
+  font-family: "Open Sans";font-weight:600;font-size:0.8rem;
+  color:Black;
+  letter-spacing: 0.08rem;
+  margin: 0;
+  min-height: inherit;
+  background-color: #f2f2f2;
+}
+ [data-sidebar] {
+ display: none;
+ position: fixed;
+ height: 100%;
+ z-index: 100;
+}
+ [data-sidebar-overlay] {
+ display: none;
+ position: fixed;
+ top: 0;
+ left: 0;
+ opacity: 0;
+ width: 100%;
+ min-height: inherit;
+}
+
+/* Additional styles */
+aside { background-color: white;box-shadow: 0 6px 0 0 rgba(0,0,0,0.5); padding:0.8rem;padding-left:15px;
+}
+aside  a { text-decoration:none;}
+.overlay { background-color: white; }
+.button{ margin:0;padding-left: 2em;text-decoration:none;position:}
+.padding { padding: 0.5em; }
+a:link{color:Black;text-decoration:none;}
+a:visited{color:Black;}
+a:hover{text-decoration: underline;}
+a:active{text-decoration: underline;}
+.index {float: right;margin:0;padding-right: 2em;font-weight: 100;}
+.index input{border:none;background-color: transparent;outline:none;font-size:0.84rem;letter-spacing: 0.08rem;}
+.index input:hover{text-decoration: underline;}
+nav{background-color: white;padding-bottom:7px;}
+/* Index page */
+#sorttop:hover{background-color: transparent;text-align:left;}
+tr:hover{background-color: white;padding:0px;}
+table{text-align:left;font-size:0.8rem;width:60%;position:relative;top:150px;left:300px;
+border-spacing:0px 0.2rem;}
+button{border:none;padding:3px;background-color:transparent;outline:none;font-size: 1rem;
+}
